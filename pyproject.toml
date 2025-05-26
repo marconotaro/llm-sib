@@ -1,0 +1,17 @@
+[project]
+name = "llm-biodata-training"
+version = "0.0.1"
+requires-python = "==3.12.*"
+dependencies = [
+    "httpx >=0.28.1",
+    "pandas >=2.2.3",
+    "sparql-llm >=0.0.8",
+    "langchain >=0.3.25",
+    "langchain-community >=0.3.24",
+    "langchain-mistralai >=0.2.10",
+    "langchain-ollama >=0.3.2",
+    "qdrant-client >=1.14.2",
+    "fastembed >=0.7.0",
+    "chainlit >=2.5.5",
+    "langchain-google-genai >=2.1.4"
+]
