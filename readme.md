@@ -1,20 +1,13 @@
-My solutions to the SIB course [Using Large Language Models for Biodata Exploration](https://github.com/sib-swiss/llm-biodata-training) - built upon the provided materials.
+My solutions to the SIB course [Using Large Language Models for Biodata Exploration](https://github.com/sib-swiss/llm-biodata-training) held on 19 May 2025. Solutions are built upon the provided materials.
 
-## Activate a conda env
+## Prerequisites
 
-> [!NOTE]
->
-> ### Prerequisites
->
-> For installation details see
-> [llm-biodata-training](https://github.com/sib-swiss/llm-biodata-training).
-
-First we should creare a conda env where to build a LLM-powered app
-(optional):
+* [Install uv](https://docs.astral.sh/uv/getting-started/first-steps/)
+* Install python 3.12 and create a venv where calling apps
 
 ``` {bash}
-conda create -n <env> python=3.12
-conda activate <env>
+uv python install 3.12
+uv sync ## create a .venv from pyproject.toml
 ```
 
 ## Launch a LLM-powered app
